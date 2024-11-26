@@ -1,0 +1,28 @@
+img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+span {
+	color: red;
+}
+section {
+	/* background-color: red; */
+}
+
+.bg-blue {
+	background-color: blue;
+}
+.bg-green {
+	background-color: green;
+}
+
+.rounded {
+	border-radius: 10px;
+}
+
+.products-wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
